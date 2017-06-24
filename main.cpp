@@ -20,7 +20,7 @@ class Person
 
 int main()
 {
-    Person* developer = new Person("Michał Stachańczyk");
+    Person* developer = new Person("John Smith");
     printf("Person name is: %s\n", developer->getName().c_str());
     return 0;
 }
